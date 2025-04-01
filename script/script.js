@@ -48,6 +48,7 @@ const addLijst = (fullname, email) => {
     const nieuwlijstemail = document.createElement("p");
     nieuwlijstnaam.innerHTML = gebruiker[fullname];
     nieuwlijstemail.innerHTML = gebruiker[email];
+
     txtlijst.appendChild(nieuwlijstemail);
     txtlijst.appendChild(nieuwlijstnaam);
   });
